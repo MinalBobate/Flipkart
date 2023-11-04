@@ -1,0 +1,20 @@
+minalbobate9112
+Hello@789
+
+component name should start with capital letter
+
+usecontext mdhe { } not [] like usestate
+
+
+export const authenticateLogin = async (data) => {
+    try {
+        return await axios.post(`${URL}/login`, data)
+    } catch (error) {
+        console.log('Error while calling login API: ', error);
+    }
+}
+i this code if error then
+error.response lihaych after console acc to sir but i have done r=error.response.data 
+
+obj.data
+object destructuring --> {data}=obj;
